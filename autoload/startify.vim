@@ -65,7 +65,7 @@ function! startify#insane_in_the_membrane(callingbuffer) abort
   enew
   set filetype=startify
   setlocal noswapfile nobuflisted buftype=nofile bufhidden=wipe
-  setlocal nonumber nocursorline nocursorcolumn nolist statusline=\ startify
+  " setlocal nonumber nocursorline nocursorcolumn nolist statusline=\ startify
   if v:version >= 703
     setlocal norelativenumber
   endif
